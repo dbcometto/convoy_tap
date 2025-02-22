@@ -1,4 +1,5 @@
 import rclpy
+import math
 from rclpy.node import Node
 
 from std_msgs.msg import UInt8, Int8
@@ -35,15 +36,20 @@ class ConvoySub(Node):
         if self.receiving: 
             self.get_logger().info(f'received tap: "{msg.data}"')
 
-            if msg.data == 2:
-                drive_msg = AckermannDriveStamped()  # ✅ Correct class instantiation
-                drive_msg.header.stamp = self.get_clock().now().to_msg()  # ✅ Proper timestamp
-                #drive_msg.header.frame_id = "base_link"  # ✅ Set frame_id if needed
+            drive_msg = AckermannDriveStamped()  # ✅ Correct class instantiation
+            drive_msg.header.stamp = self.get_clock().now().to_msg()  # ✅ Proper timestamp
 
+            #set speed to 1 m/s
+            if msg.data == 2:
                 drive_msg.drive.speed = 1.0  # ✅ Correctly assign a new AckermannDrive instance
 
-                self.drive_pub.publish(drive_msg)  # ✅ Publish correctly
-             
+            #gradual right turn
+            if msg.data == 3:
+                drive_msg.drive.steering_angle = math.pi / 2
+                drive_msg.drive.steering_angle_velocity = math.pi / 18
+
+
+            self.drive_pub.publish(drive_msg)  # ✅ Publish correctly
 
     def gesture_callback(self, msg):
         self.get_logger().info(f'received gesture: "{msg.data}"')
