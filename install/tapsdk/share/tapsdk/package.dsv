@@ -1,0 +1,3 @@
+source;share/tapsdk/hook/pythonpath.ps1
+source;share/tapsdk/hook/pythonpath.dsv
+source;share/tapsdk/hook/pythonpath.sh

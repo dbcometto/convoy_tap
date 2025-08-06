@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/tapsdk/tapsdk.egg-info/PKG-INFO
+writing dependency_links to ../../build/tapsdk/tapsdk.egg-info/dependency_links.txt
+writing requirements to ../../build/tapsdk/tapsdk.egg-info/requires.txt
+writing top-level names to ../../build/tapsdk/tapsdk.egg-info/top_level.txt
+reading manifest file '../../build/tapsdk/tapsdk.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*' under directory 'tests'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+warning: no files found matching '*.rst' under directory 'docs'
+warning: no files found matching '*.md' under directory 'docs'
+warning: no files found matching 'conf.py' under directory 'docs'
+warning: no files found matching 'Makefile' under directory 'docs'
+warning: no files found matching 'make.bat' under directory 'docs'
+warning: no files found matching '*.jpg' under directory 'docs'
+warning: no files found matching '*.png' under directory 'docs'
+warning: no files found matching '*.gif' under directory 'docs'
+writing manifest file '../../build/tapsdk/tapsdk.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+removing '/home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk-0.6.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/tapsdk/tapsdk.egg-info to /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk-0.6.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/river/simulation/convoy/build/tapsdk/install.log'

@@ -1,0 +1,30 @@
+[1.015s] Invoking command in '/home/river/simulation/convoy/src/tap-python-sdk': PYTHONPATH=/home/river/simulation/convoy/build/tapsdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tapsdk build --build-base /home/river/simulation/convoy/build/tapsdk/build install --record /home/river/simulation/convoy/build/tapsdk/install.log --single-version-externally-managed
+[1.355s] running egg_info
+[1.356s] writing ../../build/tapsdk/tapsdk.egg-info/PKG-INFO
+[1.357s] writing dependency_links to ../../build/tapsdk/tapsdk.egg-info/dependency_links.txt
+[1.357s] writing requirements to ../../build/tapsdk/tapsdk.egg-info/requires.txt
+[1.357s] writing top-level names to ../../build/tapsdk/tapsdk.egg-info/top_level.txt
+[1.409s] reading manifest file '../../build/tapsdk/tapsdk.egg-info/SOURCES.txt'
+[1.409s] reading manifest template 'MANIFEST.in'
+[1.409s] warning: no files found matching '*' under directory 'tests'
+[1.409s] warning: no previously-included files matching '__pycache__' found under directory '*'
+[1.410s] warning: no previously-included files matching '*.py[co]' found under directory '*'
+[1.410s] warning: no files found matching '*.rst' under directory 'docs'
+[1.410s] warning: no files found matching '*.md' under directory 'docs'
+[1.410s] warning: no files found matching 'conf.py' under directory 'docs'
+[1.410s] warning: no files found matching 'Makefile' under directory 'docs'
+[1.410s] warning: no files found matching 'make.bat' under directory 'docs'
+[1.410s] warning: no files found matching '*.jpg' under directory 'docs'
+[1.410s] warning: no files found matching '*.png' under directory 'docs'
+[1.410s] warning: no files found matching '*.gif' under directory 'docs'
+[1.411s] writing manifest file '../../build/tapsdk/tapsdk.egg-info/SOURCES.txt'
+[1.411s] running build
+[1.411s] running build_py
+[1.413s] running install
+[1.413s] running install_lib
+[1.416s] running install_egg_info
+[1.418s] removing '/home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk-0.6.0-py3.8.egg-info' (and everything under it)
+[1.418s] Copying ../../build/tapsdk/tapsdk.egg-info to /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk-0.6.0-py3.8.egg-info
+[1.419s] running install_scripts
+[1.439s] writing list of installed files to '/home/river/simulation/convoy/build/tapsdk/install.log'
+[1.471s] Invoked command in '/home/river/simulation/convoy/src/tap-python-sdk' returned '0': PYTHONPATH=/home/river/simulation/convoy/build/tapsdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tapsdk build --build-base /home/river/simulation/convoy/build/tapsdk/build install --record /home/river/simulation/convoy/build/tapsdk/install.log --single-version-externally-managed

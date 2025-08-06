@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000819] (tapsdk) JobQueued: {'identifier': 'tapsdk', 'dependencies': OrderedDict()}
+[0.000878] (ts_convoy_comm) JobQueued: {'identifier': 'ts_convoy_comm', 'dependencies': OrderedDict()}
+[0.000910] (tapsdk) JobStarted: {'identifier': 'tapsdk'}
+[0.009233] (ts_convoy_comm) JobStarted: {'identifier': 'ts_convoy_comm'}
+[0.099765] (-) TimerEvent: {}
+[0.200168] (-) TimerEvent: {}
+[0.300454] (-) TimerEvent: {}
+[0.400839] (-) TimerEvent: {}
+[0.501467] (-) TimerEvent: {}
+[0.601835] (-) TimerEvent: {}
+[0.702889] (-) TimerEvent: {}
+[0.803728] (-) TimerEvent: {}
+[0.904195] (-) TimerEvent: {}
+[0.981332] (tapsdk) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tapsdk', 'build', '--build-base', '/home/river/simulation/convoy/build/tapsdk/build', 'install', '--record', '/home/river/simulation/convoy/build/tapsdk/install.log', '--single-version-externally-managed'], 'cwd': '/home/river/simulation/convoy/src/tap-python-sdk', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'river', 'SSH_AGENT_PID': '1749', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/river', 'OLDPWD': '/home/river', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1650', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2168', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'river', 'JOURNAL_STREAM': '8:42819', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'river', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/river/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/river-ThinkPad-W540:@/tmp/.ICE-unix/1786,unix/river-ThinkPad-W540:/tmp/.ICE-unix/1786', 'INVOCATION_ID': '581a0090ee9d464c9469d598180c1df7', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:032532d4-fa93-4545-80c7-98be1b02152d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/river/simulation/convoy/build/tapsdk', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/river/simulation/convoy/build/tapsdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.004370] (-) TimerEvent: {}
+[1.104797] (-) TimerEvent: {}
+[1.205207] (-) TimerEvent: {}
+[1.305769] (-) TimerEvent: {}
+[1.310391] (ts_convoy_comm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ts_convoy_comm', 'build', '--build-base', '/home/river/simulation/convoy/build/ts_convoy_comm/build', 'install', '--record', '/home/river/simulation/convoy/build/ts_convoy_comm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/river/simulation/convoy/src/ts_convoy_comm', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'river', 'SSH_AGENT_PID': '1749', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/river', 'OLDPWD': '/home/river', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1650', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2168', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'river', 'JOURNAL_STREAM': '8:42819', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'river', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/river/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/river-ThinkPad-W540:@/tmp/.ICE-unix/1786,unix/river-ThinkPad-W540:/tmp/.ICE-unix/1786', 'INVOCATION_ID': '581a0090ee9d464c9469d598180c1df7', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:032532d4-fa93-4545-80c7-98be1b02152d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/river/simulation/convoy/build/ts_convoy_comm', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/river/simulation/convoy/build/ts_convoy_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.317775] (tapsdk) StdoutLine: {'line': b'running egg_info\n'}
+[1.318505] (tapsdk) StdoutLine: {'line': b'creating ../../build/tapsdk/tapsdk.egg-info\n'}
+[1.318835] (tapsdk) StdoutLine: {'line': b'writing ../../build/tapsdk/tapsdk.egg-info/PKG-INFO\n'}
+[1.319198] (tapsdk) StdoutLine: {'line': b'writing dependency_links to ../../build/tapsdk/tapsdk.egg-info/dependency_links.txt\n'}
+[1.319460] (tapsdk) StdoutLine: {'line': b'writing requirements to ../../build/tapsdk/tapsdk.egg-info/requires.txt\n'}
+[1.319674] (tapsdk) StdoutLine: {'line': b'writing top-level names to ../../build/tapsdk/tapsdk.egg-info/top_level.txt\n'}
+[1.321184] (tapsdk) StdoutLine: {'line': b"writing manifest file '../../build/tapsdk/tapsdk.egg-info/SOURCES.txt'\n"}
+[1.370633] (tapsdk) StdoutLine: {'line': b"reading manifest file '../../build/tapsdk/tapsdk.egg-info/SOURCES.txt'\n"}
+[1.370872] (tapsdk) StdoutLine: {'line': b"reading manifest template 'MANIFEST.in'\n"}
+[1.371025] (tapsdk) StderrLine: {'line': b"warning: no files found matching '*' under directory 'tests'\n"}
+[1.371186] (tapsdk) StderrLine: {'line': b"warning: no previously-included files matching '__pycache__' found under directory '*'\n"}
+[1.371342] (tapsdk) StderrLine: {'line': b"warning: no previously-included files matching '*.py[co]' found under directory '*'\n"}
+[1.371519] (tapsdk) StderrLine: {'line': b"warning: no files found matching '*.rst' under directory 'docs'\n"}
+[1.371680] (tapsdk) StderrLine: {'line': b"warning: no files found matching '*.md' under directory 'docs'\n"}
+[1.371799] (tapsdk) StderrLine: {'line': b"warning: no files found matching 'conf.py' under directory 'docs'\n"}
+[1.371889] (tapsdk) StderrLine: {'line': b"warning: no files found matching 'Makefile' under directory 'docs'\n"}
+[1.371960] (tapsdk) StderrLine: {'line': b"warning: no files found matching 'make.bat' under directory 'docs'\n"}
+[1.372028] (tapsdk) StderrLine: {'line': b"warning: no files found matching '*.jpg' under directory 'docs'\n"}
+[1.372095] (tapsdk) StderrLine: {'line': b"warning: no files found matching '*.png' under directory 'docs'\n"}
+[1.372161] (tapsdk) StderrLine: {'line': b"warning: no files found matching '*.gif' under directory 'docs'\n"}
+[1.372387] (tapsdk) StdoutLine: {'line': b"writing manifest file '../../build/tapsdk/tapsdk.egg-info/SOURCES.txt'\n"}
+[1.372515] (tapsdk) StdoutLine: {'line': b'running build\n'}
+[1.372626] (tapsdk) StdoutLine: {'line': b'running build_py\n'}
+[1.372740] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/tapsdk/build\n'}
+[1.372888] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/tapsdk/build/lib\n'}
+[1.373021] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk\n'}
+[1.373147] (tapsdk) StdoutLine: {'line': b'copying tapsdk/parsers.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk\n'}
+[1.373265] (tapsdk) StdoutLine: {'line': b'copying tapsdk/__init__.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk\n'}
+[1.373383] (tapsdk) StdoutLine: {'line': b'copying tapsdk/__version__.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk\n'}
+[1.373456] (tapsdk) StdoutLine: {'line': b'copying tapsdk/TapSDK.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk\n'}
+[1.373633] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/models\n'}
+[1.373757] (tapsdk) StdoutLine: {'line': b'copying tapsdk/models/__init__.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/models\n'}
+[1.373886] (tapsdk) StdoutLine: {'line': b'copying tapsdk/models/uuids.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/models\n'}
+[1.374004] (tapsdk) StdoutLine: {'line': b'copying tapsdk/models/enumerations.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/models\n'}
+[1.374148] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends\n'}
+[1.374292] (tapsdk) StdoutLine: {'line': b'copying tapsdk/backends/__init__.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends\n'}
+[1.374433] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/dotnet\n'}
+[1.374562] (tapsdk) StdoutLine: {'line': b'copying tapsdk/backends/dotnet/__init__.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/dotnet\n'}
+[1.374689] (tapsdk) StdoutLine: {'line': b'copying tapsdk/backends/dotnet/inputmodes.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/dotnet\n'}
+[1.374815] (tapsdk) StdoutLine: {'line': b'copying tapsdk/backends/dotnet/TapSDK.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/dotnet\n'}
+[1.374955] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/posix\n'}
+[1.375080] (tapsdk) StdoutLine: {'line': b'copying tapsdk/backends/posix/__init__.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/posix\n'}
+[1.375209] (tapsdk) StdoutLine: {'line': b'copying tapsdk/backends/posix/inputmodes.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/posix\n'}
+[1.375329] (tapsdk) StdoutLine: {'line': b'copying tapsdk/backends/posix/TapSDK.py -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/posix\n'}
+[1.375730] (tapsdk) StdoutLine: {'line': b'copying tapsdk/backends/dotnet/TAPWin.dll -> /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/dotnet\n'}
+[1.376297] (tapsdk) StdoutLine: {'line': b'running install\n'}
+[1.377327] (tapsdk) StdoutLine: {'line': b'running install_lib\n'}
+[1.378464] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk\n'}
+[1.378665] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/models\n'}
+[1.378791] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/models/__init__.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/models\n'}
+[1.378913] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/models/uuids.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/models\n'}
+[1.379029] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/models/enumerations.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/models\n'}
+[1.379176] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/parsers.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk\n'}
+[1.379271] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/__init__.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk\n'}
+[1.379417] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/__version__.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk\n'}
+[1.379535] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends\n'}
+[1.379652] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/__init__.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends\n'}
+[1.379767] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/dotnet\n'}
+[1.379875] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/dotnet/__init__.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/dotnet\n'}
+[1.379959] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/dotnet/inputmodes.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/dotnet\n'}
+[1.380078] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/dotnet/TAPWin.dll -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/dotnet\n'}
+[1.380200] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/dotnet/TapSDK.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/dotnet\n'}
+[1.380342] (tapsdk) StdoutLine: {'line': b'creating /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/posix\n'}
+[1.380463] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/posix/__init__.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/posix\n'}
+[1.380576] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/posix/inputmodes.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/posix\n'}
+[1.380650] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/backends/posix/TapSDK.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/posix\n'}
+[1.380719] (tapsdk) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/tapsdk/build/lib/tapsdk/TapSDK.py -> /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk\n'}
+[1.381268] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/models/__init__.py to __init__.cpython-38.pyc\n'}
+[1.382734] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/models/uuids.py to uuids.cpython-38.pyc\n'}
+[1.382980] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/models/enumerations.py to enumerations.cpython-38.pyc\n'}
+[1.383339] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/parsers.py to parsers.cpython-38.pyc\n'}
+[1.383964] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/__init__.py to __init__.cpython-38.pyc\n'}
+[1.384231] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/__version__.py to __version__.cpython-38.pyc\n'}
+[1.384445] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/__init__.py to __init__.cpython-38.pyc\n'}
+[1.384658] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/dotnet/__init__.py to __init__.cpython-38.pyc\n'}
+[1.384850] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/dotnet/inputmodes.py to inputmodes.cpython-38.pyc\n'}
+[1.385389] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/dotnet/TapSDK.py to TapSDK.cpython-38.pyc\n'}
+[1.386064] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/posix/__init__.py to __init__.cpython-38.pyc\n'}
+[1.386267] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/posix/inputmodes.py to inputmodes.cpython-38.pyc\n'}
+[1.386815] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/backends/posix/TapSDK.py to TapSDK.cpython-38.pyc\n'}
+[1.389092] (tapsdk) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk/TapSDK.py to TapSDK.cpython-38.pyc\n'}
+[1.389457] (tapsdk) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.391347] (tapsdk) StdoutLine: {'line': b'Copying ../../build/tapsdk/tapsdk.egg-info to /home/river/simulation/convoy/install/tapsdk/lib/python3.8/site-packages/tapsdk-0.6.0-py3.8.egg-info\n'}
+[1.392128] (tapsdk) StdoutLine: {'line': b'running install_scripts\n'}
+[1.405882] (-) TimerEvent: {}
+[1.413180] (tapsdk) StdoutLine: {'line': b"writing list of installed files to '/home/river/simulation/convoy/build/tapsdk/install.log'\n"}
+[1.455922] (tapsdk) CommandEnded: {'returncode': 0}
+[1.469355] (tapsdk) JobEnded: {'identifier': 'tapsdk', 'rc': 0}
+[1.506032] (-) TimerEvent: {}
+[1.606501] (-) TimerEvent: {}
+[1.629648] (ts_convoy_comm) StdoutLine: {'line': b'running egg_info\n'}
+[1.630597] (ts_convoy_comm) StdoutLine: {'line': b'creating ../../build/ts_convoy_comm/ts_convoy_comm.egg-info\n'}
+[1.630956] (ts_convoy_comm) StdoutLine: {'line': b'writing ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/PKG-INFO\n'}
+[1.631344] (ts_convoy_comm) StdoutLine: {'line': b'writing dependency_links to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/dependency_links.txt\n'}
+[1.631568] (ts_convoy_comm) StdoutLine: {'line': b'writing entry points to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/entry_points.txt\n'}
+[1.631760] (ts_convoy_comm) StdoutLine: {'line': b'writing requirements to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/requires.txt\n'}
+[1.631948] (ts_convoy_comm) StdoutLine: {'line': b'writing top-level names to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/top_level.txt\n'}
+[1.634156] (ts_convoy_comm) StdoutLine: {'line': b"writing manifest file '../../build/ts_convoy_comm/ts_convoy_comm.egg-info/SOURCES.txt'\n"}
+[1.675838] (ts_convoy_comm) StdoutLine: {'line': b"reading manifest file '../../build/ts_convoy_comm/ts_convoy_comm.egg-info/SOURCES.txt'\n"}
+[1.676611] (ts_convoy_comm) StdoutLine: {'line': b"writing manifest file '../../build/ts_convoy_comm/ts_convoy_comm.egg-info/SOURCES.txt'\n"}
+[1.676807] (ts_convoy_comm) StdoutLine: {'line': b'running build\n'}
+[1.677008] (ts_convoy_comm) StdoutLine: {'line': b'running build_py\n'}
+[1.677208] (ts_convoy_comm) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/ts_convoy_comm/build\n'}
+[1.677387] (ts_convoy_comm) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/ts_convoy_comm/build/lib\n'}
+[1.677549] (ts_convoy_comm) StdoutLine: {'line': b'creating /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm\n'}
+[1.677686] (ts_convoy_comm) StdoutLine: {'line': b'copying ts_convoy_comm/__init__.py -> /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm\n'}
+[1.677814] (ts_convoy_comm) StdoutLine: {'line': b'copying ts_convoy_comm/ts_sub.py -> /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm\n'}
+[1.677932] (ts_convoy_comm) StdoutLine: {'line': b'copying ts_convoy_comm/ts_pub.py -> /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm\n'}
+[1.678060] (ts_convoy_comm) StdoutLine: {'line': b'running install\n'}
+[1.678458] (ts_convoy_comm) StdoutLine: {'line': b'running install_lib\n'}
+[1.679471] (ts_convoy_comm) StdoutLine: {'line': b'creating /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm\n'}
+[1.679787] (ts_convoy_comm) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm/__init__.py -> /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm\n'}
+[1.679927] (ts_convoy_comm) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm/ts_sub.py -> /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm\n'}
+[1.680060] (ts_convoy_comm) StdoutLine: {'line': b'copying /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm/ts_pub.py -> /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm\n'}
+[1.680337] (ts_convoy_comm) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm/__init__.py to __init__.cpython-38.pyc\n'}
+[1.682270] (ts_convoy_comm) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm/ts_sub.py to ts_sub.cpython-38.pyc\n'}
+[1.682889] (ts_convoy_comm) StdoutLine: {'line': b'byte-compiling /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm/ts_pub.py to ts_pub.cpython-38.pyc\n'}
+[1.683481] (ts_convoy_comm) StdoutLine: {'line': b'running install_data\n'}
+[1.683706] (ts_convoy_comm) StdoutLine: {'line': b'creating /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index\n'}
+[1.683932] (ts_convoy_comm) StdoutLine: {'line': b'creating /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index/resource_index\n'}
+[1.684096] (ts_convoy_comm) StdoutLine: {'line': b'creating /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index/resource_index/packages\n'}
+[1.684217] (ts_convoy_comm) StdoutLine: {'line': b'copying resource/ts_convoy_comm -> /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index/resource_index/packages\n'}
+[1.684336] (ts_convoy_comm) StdoutLine: {'line': b'copying package.xml -> /home/river/simulation/convoy/install/ts_convoy_comm/share/ts_convoy_comm\n'}
+[1.684452] (ts_convoy_comm) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.686100] (ts_convoy_comm) StdoutLine: {'line': b'Copying ../../build/ts_convoy_comm/ts_convoy_comm.egg-info to /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm-0.0.0-py3.8.egg-info\n'}
+[1.687127] (ts_convoy_comm) StdoutLine: {'line': b'running install_scripts\n'}
+[1.706596] (ts_convoy_comm) StdoutLine: {'line': b'Installing ts_pub script to /home/river/simulation/convoy/install/ts_convoy_comm/lib/ts_convoy_comm\n'}
+[1.706825] (-) TimerEvent: {}
+[1.706933] (ts_convoy_comm) StdoutLine: {'line': b'Installing ts_sub script to /home/river/simulation/convoy/install/ts_convoy_comm/lib/ts_convoy_comm\n'}
+[1.707096] (ts_convoy_comm) StdoutLine: {'line': b"writing list of installed files to '/home/river/simulation/convoy/build/ts_convoy_comm/install.log'\n"}
+[1.742899] (ts_convoy_comm) CommandEnded: {'returncode': 0}
+[1.753138] (ts_convoy_comm) JobEnded: {'identifier': 'ts_convoy_comm', 'rc': 0}
+[1.754221] (-) EventReactorShutdown: {}

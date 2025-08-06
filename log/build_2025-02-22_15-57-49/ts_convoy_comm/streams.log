@@ -1,0 +1,41 @@
+[1.305s] Invoking command in '/home/river/simulation/convoy/src/ts_convoy_comm': PYTHONPATH=/home/river/simulation/convoy/build/ts_convoy_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ts_convoy_comm build --build-base /home/river/simulation/convoy/build/ts_convoy_comm/build install --record /home/river/simulation/convoy/build/ts_convoy_comm/install.log --single-version-externally-managed install_data
+[1.620s] running egg_info
+[1.621s] creating ../../build/ts_convoy_comm/ts_convoy_comm.egg-info
+[1.621s] writing ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/PKG-INFO
+[1.622s] writing dependency_links to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/dependency_links.txt
+[1.622s] writing entry points to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/entry_points.txt
+[1.622s] writing requirements to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/requires.txt
+[1.622s] writing top-level names to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/top_level.txt
+[1.625s] writing manifest file '../../build/ts_convoy_comm/ts_convoy_comm.egg-info/SOURCES.txt'
+[1.666s] reading manifest file '../../build/ts_convoy_comm/ts_convoy_comm.egg-info/SOURCES.txt'
+[1.667s] writing manifest file '../../build/ts_convoy_comm/ts_convoy_comm.egg-info/SOURCES.txt'
+[1.667s] running build
+[1.667s] running build_py
+[1.668s] creating /home/river/simulation/convoy/build/ts_convoy_comm/build
+[1.668s] creating /home/river/simulation/convoy/build/ts_convoy_comm/build/lib
+[1.668s] creating /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm
+[1.668s] copying ts_convoy_comm/__init__.py -> /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm
+[1.668s] copying ts_convoy_comm/ts_sub.py -> /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm
+[1.668s] copying ts_convoy_comm/ts_pub.py -> /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm
+[1.668s] running install
+[1.669s] running install_lib
+[1.670s] creating /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm
+[1.670s] copying /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm/__init__.py -> /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm
+[1.670s] copying /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm/ts_sub.py -> /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm
+[1.670s] copying /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm/ts_pub.py -> /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm
+[1.671s] byte-compiling /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm/__init__.py to __init__.cpython-38.pyc
+[1.673s] byte-compiling /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm/ts_sub.py to ts_sub.cpython-38.pyc
+[1.673s] byte-compiling /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm/ts_pub.py to ts_pub.cpython-38.pyc
+[1.674s] running install_data
+[1.674s] creating /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index
+[1.674s] creating /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index/resource_index
+[1.674s] creating /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index/resource_index/packages
+[1.675s] copying resource/ts_convoy_comm -> /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index/resource_index/packages
+[1.675s] copying package.xml -> /home/river/simulation/convoy/install/ts_convoy_comm/share/ts_convoy_comm
+[1.675s] running install_egg_info
+[1.676s] Copying ../../build/ts_convoy_comm/ts_convoy_comm.egg-info to /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm-0.0.0-py3.8.egg-info
+[1.677s] running install_scripts
+[1.697s] Installing ts_pub script to /home/river/simulation/convoy/install/ts_convoy_comm/lib/ts_convoy_comm
+[1.697s] Installing ts_sub script to /home/river/simulation/convoy/install/ts_convoy_comm/lib/ts_convoy_comm
+[1.697s] writing list of installed files to '/home/river/simulation/convoy/build/ts_convoy_comm/install.log'
+[1.734s] Invoked command in '/home/river/simulation/convoy/src/ts_convoy_comm' returned '0': PYTHONPATH=/home/river/simulation/convoy/build/ts_convoy_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ts_convoy_comm build --build-base /home/river/simulation/convoy/build/ts_convoy_comm/build install --record /home/river/simulation/convoy/build/ts_convoy_comm/install.log --single-version-externally-managed install_data

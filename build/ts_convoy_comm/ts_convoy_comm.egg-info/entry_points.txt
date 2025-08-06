@@ -1,0 +1,4 @@
+[console_scripts]
+ts_pub = ts_convoy_comm.ts_pub:main
+ts_sub = ts_convoy_comm.ts_sub:main
+

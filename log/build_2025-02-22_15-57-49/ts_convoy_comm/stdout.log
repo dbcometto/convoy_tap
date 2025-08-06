@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/ts_convoy_comm/ts_convoy_comm.egg-info
+writing ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/PKG-INFO
+writing dependency_links to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/dependency_links.txt
+writing entry points to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/entry_points.txt
+writing requirements to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/requires.txt
+writing top-level names to ../../build/ts_convoy_comm/ts_convoy_comm.egg-info/top_level.txt
+writing manifest file '../../build/ts_convoy_comm/ts_convoy_comm.egg-info/SOURCES.txt'
+reading manifest file '../../build/ts_convoy_comm/ts_convoy_comm.egg-info/SOURCES.txt'
+writing manifest file '../../build/ts_convoy_comm/ts_convoy_comm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/river/simulation/convoy/build/ts_convoy_comm/build
+creating /home/river/simulation/convoy/build/ts_convoy_comm/build/lib
+creating /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm
+copying ts_convoy_comm/__init__.py -> /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm
+copying ts_convoy_comm/ts_sub.py -> /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm
+copying ts_convoy_comm/ts_pub.py -> /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm
+running install
+running install_lib
+creating /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm
+copying /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm/__init__.py -> /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm
+copying /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm/ts_sub.py -> /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm
+copying /home/river/simulation/convoy/build/ts_convoy_comm/build/lib/ts_convoy_comm/ts_pub.py -> /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm
+byte-compiling /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm/ts_sub.py to ts_sub.cpython-38.pyc
+byte-compiling /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm/ts_pub.py to ts_pub.cpython-38.pyc
+running install_data
+creating /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index
+creating /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index/resource_index
+creating /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index/resource_index/packages
+copying resource/ts_convoy_comm -> /home/river/simulation/convoy/install/ts_convoy_comm/share/ament_index/resource_index/packages
+copying package.xml -> /home/river/simulation/convoy/install/ts_convoy_comm/share/ts_convoy_comm
+running install_egg_info
+Copying ../../build/ts_convoy_comm/ts_convoy_comm.egg-info to /home/river/simulation/convoy/install/ts_convoy_comm/lib/python3.8/site-packages/ts_convoy_comm-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ts_pub script to /home/river/simulation/convoy/install/ts_convoy_comm/lib/ts_convoy_comm
+Installing ts_sub script to /home/river/simulation/convoy/install/ts_convoy_comm/lib/ts_convoy_comm
+writing list of installed files to '/home/river/simulation/convoy/build/ts_convoy_comm/install.log'
