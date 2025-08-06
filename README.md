@@ -3,7 +3,7 @@ This project implements **ROS 2** to allow a user to control multiple simulated 
 
 The https://github.com/TapWithUs/tap-python-sdk repository is integrated within this project in order to connect to the Tap-Strap device and publish the ROS 2 messages.
 
-The **‎'src/ts_convoy_comm/ts_convoy_comm/ts_sub.py'** file maps binary values to a tap signal. These are the tap values are are within the file:
+The **‎'src/ts_convoy_comm/ts_convoy_comm/ts_sub.py'** creates a ROS 2 node that subscribes to the tap topic and listens for the gesture commands. This file also maps binary values to a tap signal, which gets published to the vehicles. These are the tap values are are within the file:
 - 1: **Toggles on/off** (whether the commands are send to the vehicles or not)
 - 2: **Pointer finger tap** (Drives forward at 1 m/s)
 - 3: **Both thumb and index finger tap** (Gradual right turn at 1 m/s, 45° angle)
