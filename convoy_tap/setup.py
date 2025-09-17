@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'ts_convoy_comm'
+package_name = 'convoy_tap'
 
 setup(
     name=package_name,
@@ -22,8 +22,8 @@ setup(
     license='Apache-2.0',
     entry_points={
         'console_scripts': [
-            'ts_pub = ts_convoy_comm.ts_pub:main',
-            'ts_sub = ts_convoy_comm.ts_sub:main'
+            'ts_pub = convoy_tap.ts_pub:main',
+            'ts_sub = convoy_tap.ts_sub:main'
         ],
     },
 )
