@@ -5,6 +5,9 @@ from rclpy.node import Node
 from std_msgs.msg import UInt8, Int8
 from ackermann_msgs.msg import AckermannDriveStamped
 
+
+# Deprecated within Convoy system
+
 class ConvoySub(Node):
 
     def __init__(self):
