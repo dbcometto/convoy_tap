@@ -5,7 +5,7 @@ from rclpy.node import Node
 from std_msgs.msg import UInt8, Int8 #tap is an unsigned 8 bit int, for example,20 = 10100 = thumb and middle finger tapped, Int8 for gesture
 import asyncio
 
-tap_device = TapSDK()
+# tap_device = TapSDK()
 
 class TSPublisher(Node):
 
