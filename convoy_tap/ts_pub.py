@@ -74,13 +74,7 @@ class TSPublisher(Node):
                         self.get_logger().warn(f"TapSDK connection error ") #: {e}
                         self.client = None
                         await asyncio.sleep(4.0)
-                # else:
-                #     if getattr(self.client, "client", None) and self.client.client.is_connected:
-                #         self.get_logger().info("Tap Strap is connected")
-                #     else:
-                #         self.get_logger().info("TapSDK exists but not connected, will try reconnect")
-                #         self.client = None
-                #     await asyncio.sleep(0.1)
+
 
                 else: # Client exists
                     if getattr(self.client, "client", None): # Check if still connected
@@ -113,140 +107,6 @@ class TSPublisher(Node):
             self.get_logger().warn(f"Bluetooth Thread Crash: {e}")
 
 
-
-
-
-
-
-
-
-
-        # try:
-        #     self.get_logger().info(f"async run")
-        #     while rclpy.ok():
-        #         if self.client is None:
-        #             try:
-        #                 self.get_logger().info("Reconnecting")
-
-        #                 try:
-        #                     self.client = TapSDK()
-        #                 except Exception as e:
-        #                     self.get_logger().warn(f"TapSDK formation error: {e}")
-
-        #                 self.get_logger().info("1")
-        #                 #await self.client.run()
-        #                 asyncio.create_task(self.client.run())
-        #                 self.get_logger().info("2")
-
-        #                 await self.client.register_tap_events(self.onTapped)
-        #                 # await self.client.register_air_gesture_events(self.onGesture)
-        #                 await self.client.register_disconnection_events(self.onDisconnected)
-        #                 await self.client.set_input_mode(TapInputMode("controller"))
-
-        #             except Exception as e:
-        #                 self.get_logger().warn(f"TapSDK connection error: {e}")
-        #                 await asyncio.sleep(2.0)
-        #         # else:
-        #         #     if getattr(self.client, "client", None) and self.client.client.is_connected:
-        #         #         self.get_logger().info("Tap Strap is connected")
-        #         #     else:
-        #         #         self.get_logger().info("TapSDK exists but not connected, will try reconnect")
-        #         #         self.client = None
-        #         #     await asyncio.sleep(0.1)
-
-        #         else:
-        #             if getattr(self.client, "client", None):
-        #                 try:
-        #                     connected = await self.client.client.is_connected()
-        #                 except Exception as e:
-        #                     self.get_logger().warn(f"Error checking connection: {e}")
-        #                     connected = False
-
-        #                 if not connected:
-        #                     self.get_logger().info("Tap Strap disconnected, will reconnect")
-        #                     # Cancel background run task if you stored it
-        #                     if hasattr(self, "_run_task") and self._run_task:
-        #                         self._run_task.cancel()
-        #                     self.client = None
-        #                 else:
-        #                     self.get_logger().info("Tap Strap is connected")
-        #             else:
-        #                 self.get_logger().info("TapSDK exists but client is None, will reconnect")
-        #                 self.client = None
-
-        #             await asyncio.sleep(0.1)
-
-        # except Exception as e:
-        #     self.get_logger().warn(f"Bluetooth Thread Crash: {e}")
-
-
-
-    # async def run_tapsdk(self):
-    #     self._run_task = None
-    #     while rclpy.ok():
-    #         if self.client is None:
-    #             try:
-    #                 self.get_logger().info("Reconnecting")
-    #                 self.client = TapSDK()
-
-    #                 # cancel previous task if it exists
-    #                 if self._run_task is not None and not self._run_task.done():
-    #                     self._run_task.cancel()
-    #                     await asyncio.sleep(0.1)
-
-    #                 # start run task
-    #                 self._run_task = asyncio.create_task(self.client.run())
-
-    #                 await self.client.register_tap_events(self.onTapped)
-    #                 await self.client.register_disconnection_events(self.onDisconnected)
-    #                 await self.client.set_input_mode(TapInputMode("controller"))
-
-    #             except Exception as e:
-    #                 self.get_logger().warn(f"TapSDK connection error: {e}")
-    #                 self.client = None
-    #                 await asyncio.sleep(2.0)
-
-    #         else:
-    #             client_obj = getattr(self.client, "client", None)
-    #             if client_obj:
-    #                 try:
-    #                     connected = await client_obj.is_connected()
-    #                 except Exception:
-    #                     connected = False
-
-    #                 if not connected:
-    #                     self.get_logger().info("Tap Strap disconnected, will reconnect")
-    #                     if self._run_task is not None and not self._run_task.done():
-    #                         self._run_task.cancel()
-    #                     self.client = None
-    #                 else:
-    #                     self.get_logger().info("Tap Strap is connected")
-    #             else:
-    #                 self.get_logger().info("TapSDK exists but client is None, will reconnect")
-    #                 self.client = None
-
-    #         await asyncio.sleep(0.1)
-
-    # async def onConnected(self,identifier, name, fw):
-    #     self.get_logger().info(f"{identifier}- connected. Name: {str(name)}, FW Version:  {fw}")
-
-    #     await self.client.register_tap_events(self.onTapped)
-    #     self.get_logger().info("3")
-    #     # await self.client.register_air_gesture_events(self.onGesture)
-    #     await self.client.register_disconnection_events(self.onDisconnected)
-    #     self.get_logger().info("4")
-    #     await self.client.set_input_mode(TapInputMode("controller"))
-    #     self.get_logger().info("5")
-
-
-    # def onDisconnected(self, identifier):
-    #     self.get_logger().info(f"Tap Strap {identifier} disconnected, reconnecting...")
-    #     # Cancel current client and allow outer loop to reconnect
-    #     if hasattr(self, "client") and self.client:
-    #         asyncio.create_task(self.client.client.disconnect())
-    #     self.client = None
-
-
     # def onMouseModeChange(self, identifier, mouse_mode):
     #     print(str(identifier) + " changed to mode " + str(mouse_mode))
 
@@ -267,13 +127,13 @@ class TSPublisher(Node):
     #     self.get_logger().info(f'Publishing: "{msg.data}"')
 
 
-    #def OnMoused(self, identifier, vx, vy, isMouse):
-        #print(str(identifier) + " mouse movement: %d, %d, %d" % (vx, vy, isMouse))
+    # def OnMoused(self, identifier, vx, vy, isMouse):
+    #     print(str(identifier) + " mouse movement: %d, %d, %d" % (vx, vy, isMouse))
 
 
-    #def OnRawData(self, identifier, packets):
-        #for m in packets:
-            #print(f"{m['type']}, {time.time()}, {m['payload']}")
+    # def OnRawData(self, identifier, packets):
+    #     for m in packets:
+    #         print(f"{m['type']}, {time.time()}, {m['payload']}")
     
 
 
